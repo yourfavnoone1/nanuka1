@@ -1,0 +1,27 @@
+body{
+background-image: url(maxresdefault.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+pre{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+img{
+  height: 200px;
+  width: 150px;
+  border-radius: 5px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}

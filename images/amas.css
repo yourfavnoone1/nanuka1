@@ -1,0 +1,38 @@
+
+p{
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(77, 200, 77);
+}
+body{
+    background-image: url(ki.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+button{
+    text-align: center;
+    background-color: rgb(197, 196, 196);
+    font-size: 20px;
+     color: white; 
+     border-radius: 10px;
+     animation-name: colorchange;
+     animation-duration: 8s;
+     animation-play-state: repeat;
+     
+    }
+   
+   @keyframes colorchange{
+    10%{background-color:rgb(197, 196, 196) ;}
+    20%{background-color:rgb(237, 28, 28) ;}
+    30%{background-color:rgb(233, 250, 0) ;}
+    40%{background-color:rgb(68, 255, 0) ;}
+    50%{background-color:rgb(0, 255, 234) ;}
+    60%{background-color:rgb(0, 0, 255) ;}
+    70%{background-color:rgb(191, 0, 255) ;}
+    80%{background-color:rgb(217, 0, 255) ;}
+    90%{background-color:rgb(255, 0, 140) ;}
+    100%{background-color:rgb(40, 101, 200) ;}
+   }
+   
